@@ -1,0 +1,8 @@
+.Body{
+  text-align: center;
+  top : 10%;
+  height : 95vh;
+  width : 100vw;
+  overflow: scroll;
+  overflow-x : hidden;
+}

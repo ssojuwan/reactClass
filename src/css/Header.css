@@ -1,0 +1,255 @@
+/* Header.css */
+
+.h3 {
+  text-align: center !important;
+}
+
+.Header {
+  text-align: right;
+  width: 100vw;
+  height: 15vh;
+  
+}
+
+.h2_1 {
+  text-align: center !important;
+}
+.aaa{  
+  position: sticky; 
+  background-color: white;
+
+}
+
+.login{
+  position: sticky; 
+
+}
+.divHeader {
+  margin-right: 2vw;
+  position: sticky; 
+background-color: white;
+}
+
+.linkStyle {
+  color: skyblue;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnLogin {
+  background: #0abbf1;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin-left : 1.1em;
+}
+
+.btnLogin:hover {
+  background: #fff;
+  color: #0abbf1;
+}
+
+.btnLogin:before,
+.btnLogin:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #0abbf1;
+  transition: 400ms ease all;
+}
+
+.btnLogin:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btnLogin:hover:before,
+.btnLogin:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+.btnRegister {
+  background: #0abbf1;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin-left : 10px;
+  margin-right : 10px;
+}
+
+.btnRegister:hover {
+  background: #fff;
+  color: #0abbf1;
+}
+
+.btnRegister:before,
+.btnRegister:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #0abbf1;
+  transition: 400ms ease all;
+}
+
+.btnRegister:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btnRegister:hover:before,
+.btnRegister:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.btnHandleRegister {
+  background: #ffffff;
+  color: #000000;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left : none;
+  border-right : none;
+  position: relative;
+  height: 30px;
+  font-size: 0.7em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  
+}
+
+.btnHandleRegister:hover {
+  background: #fff;
+  color: #0abbf1;
+  border: none;
+}
+
+.btnHandleRegister:before,
+.btnHandleRegister:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #0abbf1;
+  transition: 400ms ease all;
+}
+
+.btnHandleRegister:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btnHandleRegister:hover:before,
+.btnHandleRegister:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+.btnLogout {
+  background: #0abbf1;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin-left : 10px;
+  margin-right : 10px;
+}
+
+.btnLogout:hover {
+  background: #fff;
+  color: #0abbf1;
+}
+
+.btnLogout:before,
+.btnLogout:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #0abbf1;
+  transition: 400ms ease all;
+}
+
+.btnLogout:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btnLogout:hover:before,
+.btnLogout:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}

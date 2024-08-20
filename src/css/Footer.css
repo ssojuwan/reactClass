@@ -1,0 +1,13 @@
+.Footer {
+  text-align: center;
+  width: 100%;
+  height: 3em;
+  bottom: 0;
+  font-size: 1.8vh;
+  position: fixed;
+  background-color: rgb(78, 75, 76);
+  font-weight: bold;
+  color :white;
+}
+
+
